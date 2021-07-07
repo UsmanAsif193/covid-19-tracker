@@ -1,3 +1,4 @@
+import React from 'react'
 import Navbar from './components/NavBar';
 import InfoPanel from './components/InfoPanel';
 
@@ -5,10 +6,9 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className='container'>
       <Navbar />
       <InfoPanel />
-      <h1>Hello</h1>
     </div>
   );
 }
